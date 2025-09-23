@@ -2,10 +2,10 @@ version: "3.8"
 
 services:
   web:
-    build: ./app
+    image: php:8.1-apache   
     container_name: php-apache
     ports:
-      - "8080:80"       
+      - "8080:80"
     volumes:
       - ./app:/var/www/html
     depends_on:
@@ -23,7 +23,7 @@ services:
     volumes:
       - db_data:/var/lib/mysql
     ports:
-      - "3306:3306"
+      - "3308:3306"
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
