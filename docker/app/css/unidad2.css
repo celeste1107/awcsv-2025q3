@@ -104,3 +104,20 @@
         cursor: pointer;
 
     }
+
+    /* RESPONSIVE */
+
+    @media (max-width: 700px) {
+        section {
+            width: 80%;
+        }
+        .speakers {
+            width: 700px;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        header {
+            color: purple;
+        }
+    }

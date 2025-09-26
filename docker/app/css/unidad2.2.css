@@ -1,0 +1,11 @@
+.form-control {
+    border-color: red;
+}
+
+#email {
+    background-color: yellow;
+}
+
+.navbar a {
+    color: blue!important;
+}
