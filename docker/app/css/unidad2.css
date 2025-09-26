@@ -49,7 +49,7 @@
         border-color: red;
     }
 
-    input[type = "color"] {
+    input[type="color"] {
         border-color: blue;
     }
 
@@ -62,10 +62,45 @@
         margin: 1em;
     }
 
-    h3 + p {
-        color: blue;    
+    h3+p {
+        color: blue;
     }
 
     /*h3 ~ p {
         color: orange;
     }*/
+
+    .speakers {
+        background-color: blueviolet;
+        display: flex;
+        justify-content: space-around;
+        height: 400px;
+        align-items: center;
+    }
+
+    footer {
+        background-color: #343a40;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+        font-size: 0.9rem;
+    }
+
+    .register {
+        text-align: center;
+        padding: 3em 1em;
+        background-color:  #007bff;
+        color: white;
+
+    }
+
+    .register button{
+        background-color: white;
+        color: #007bff;
+        font-size: 1.2rem;
+        padding: 0.8em 2em;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+    }
