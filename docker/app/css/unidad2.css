@@ -5,12 +5,12 @@
     % tamanno del contenedor, anchos y altos, si es reponsive
     vw / vh tamanno ventana, secciones completas, si es responsive
     */
-
+    /*
     * {
         margin: 0;
         padding: 0;
     }
-
+    */
     html {
         font-size: 1.2rem;
         color: #16162d;
